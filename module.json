@@ -1,0 +1,37 @@
+{
+  "name": "sal-iface-atmel-winc1500",
+  "version": "1.0.0",
+  "description": "Atmel Socket Interface",
+  "keywords": [
+    "network",
+    "sockets",
+    "mbed",
+    "mbed-official"
+  ],
+  "author": "~@atmel.com",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "extraIncludes": [
+    "sal-iface-atmel-winc1500"
+  ],
+  "dependencies": {
+    "sal-stack-atmel": "~1.0.0"
+  },
+  "targetDependencies": { },
+  "testDependencies": {
+    "mbed-drivers": "^1.0.0"
+  },
+  "scripts": {
+    "testReporter": [
+      "mbedgt",
+      "--digest",
+      "stdin",
+      "-v",
+      "-V"
+    ]
+  }
+}
